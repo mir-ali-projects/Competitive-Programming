@@ -28,7 +28,7 @@ void printArray(int *arr,int n)
 int main()
 {
 	int arr[]={1,2,3,4,5,6,7};		
-	LeftArrayRotateOnce(arr, 7);
+	LeftArrayRotateOnce(arr, 7); // this was the fucking error
 	LeftArrayRotate(arr,7,2);
 	printArray(arr,7);
 	return 0;	
