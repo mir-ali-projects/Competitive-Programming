@@ -91,7 +91,7 @@ int last(struct element *arr, int low, int high, int x,int n)
 } 
 int main()
 {
-    int *indexes , j;
+    
     int n;
     scanf("%d",&n);
     struct element *arr = (struct element *)malloc(sizeof(struct element)*n);
